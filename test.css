@@ -17,6 +17,13 @@ nav{
     background-color: #F1F5F9;
 }
 
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    margin-right: -170px; 
+}
+
 .logo{
     color: #1E3A8A;
     font-size: 1.8rem;
