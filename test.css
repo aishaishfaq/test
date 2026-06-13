@@ -7,8 +7,6 @@ body{
     background-color: #F1F5F9;
 }
 
-
-
 nav{
     display: flex;
     justify-content: space-between;
@@ -53,7 +51,6 @@ nav ul li a{
 }
 
 
-
 .hero{
     display: flex;
     justify-content: space-between;
@@ -96,3 +93,105 @@ nav ul li a{
     font-size: 10rem;
     color: #3B82F6;
 }
+
+.features{
+    text-align: center;
+    padding: 80px 8%;
+    background-color: #FFFFFF;
+}
+
+.label{
+    color: #3B82F6;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+
+.features h2{
+    color: #1E3A8A;
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.features > p:last-of-type{
+    color: #64748B;
+    margin-bottom: 50px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #F1F5F9;
+    padding: 30px;
+    width: 280px;
+    border-radius: 12px;
+}
+
+.card h3{
+    color: #1E3A8A;
+    margin-bottom: 10px;
+}
+
+.card p{
+    color: #64748B;
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.icon{
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 8%;
+    background-color: #F1F5F9;
+    gap: 60px;
+}
+
+.about-img{
+    font-size: 10rem;
+    color: #3B82F6;
+    flex: 1;
+    text-align: center;
+}
+.about-text{
+    flex: 1;
+}
+
+.about-text .label{
+    color: #3B82F6;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.about-text h2{
+    color: #1E3A8A;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-text p{
+    color: #64748B;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+footer{
+    background-color: #1E3A8A;
+    padding: 50px 8%;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
